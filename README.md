@@ -2,7 +2,6 @@
 
 I am a Web Development student at Seattle University! 
         
-
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
