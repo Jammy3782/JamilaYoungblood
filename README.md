@@ -1,8 +1,12 @@
-## Welcome to GitHub Pages
+## Welcome to My Portofilio 
 
-You can use the [editor on GitHub](https://github.com/Jammy3782/JamilaYoungblood/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+I am a Web Development student at Seattle University! 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<a href="https://www.linkedin.com/pub/jamila-youngblood/6a/756/250">
+      
+          <img src="https://static.licdn.com/scds/common/u/img/webpromo/btn_viewmy_160x33.png" width="160" height="33" border="0" alt="View Jamila Youngblood's profile on LinkedIn">
+        
+    </a>
 
 ### Markdown
 
