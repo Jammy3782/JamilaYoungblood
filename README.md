@@ -24,4 +24,4 @@ Syntax highlighted code block
 [Link](url) and ![Image](src)
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+For more details see [Visit My Profile on LinkedIn](https://www.linkedin.com/in/jamila-youngblood-2507566a).
