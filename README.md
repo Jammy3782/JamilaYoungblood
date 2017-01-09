@@ -1,12 +1,7 @@
 ## Welcome to My Portofilio 
 
 I am a Web Development student at Seattle University! 
-
-<a href="https://www.linkedin.com/pub/jamila-youngblood/6a/756/250">
-      
-          <img src="https://static.licdn.com/scds/common/u/img/webpromo/btn_viewmy_160x33.png" width="160" height="33" border="0" alt="View Jamila Youngblood's profile on LinkedIn">
         
-    </a>
 
 ### Markdown
 
