@@ -1,6 +1,6 @@
-## Welcome to My Portofilio 
+## Welcome to My Portfolio! 
 
-I am a Web Development student at Seattle University! 
+I am a student at Seattle University in their Web Development certificate program. I am looking forward to helping you create an elegant and visually aesthetic website for your company! 
         
 ### Markdown
 
