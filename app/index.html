@@ -35,37 +35,47 @@
           <li><a href="#">About</a></li>
           <li><a href="#">Contact</a></li>
         </ul>
-        <h3 class="text-muted">Jammy3782 github io</h3>
+        <h3 class="text-muted"></h3>
       </div>
 
       <div class="jumbotron">
-        <h1>'Allo, 'Allo!</h1>
-        <p class="lead">Always a pleasure scaffolding your apps.</p>
-        <p><a class="btn btn-lg btn-success" href="#">Splendid! <span class="glyphicon glyphicon-ok"></span></a></p>
+        <h1>Jamila Youngblood</h1>
+        <p class="lead">I am a freelance Web Developer specializing in HTML, CSS, and JavaScript programing languages. I recently acquired a certificate in Web Development from Seattle University in Seattle,WA, USA.</p>
+        <p> Shortly after receiveing my certifcate, I relocated to Amsterdam, Netherlands which is where I currently reside. I am looking forward to helping you create an elegant and visually aesthetic website for your company!</p>
+        <p><a class="btn btn-lg btn-success" href="#">Click Here to View My Work! <span class="glyphicon glyphicon-ok"></span></a></p>
       </div>
 
-      <div class="row marketing">
-        <div class="col-lg-6">
-          <h4><a href="https://html5boilerplate.com/">HTML5 Boilerplate</a></h4>
-          <p>HTML5 Boilerplate is a professional front-end template for building fast, robust, and adaptable web apps or sites.</p>
 
-          <h4><a href="http://libsass.org/">Sass</a></h4>
-          <p>Sass is a mature, stable, and powerful professional grade CSS extension language.</p>
-
-
-          <h4><a href="http://getbootstrap.com/">Bootstrap</a></h4>
-          <p>Sleek, intuitive, and powerful mobile first front-end framework for faster and easier web development.</p>
-
-          <h4><a href="http://modernizr.com/">Modernizr</a></h4>
-          <p>Modernizr is an open-source JavaScript library that helps you build the next generation of HTML5 and CSS3-powered websites.</p>
-
-        </div>
-      </div>
-
-      <div class="footer">
-        <p><span class="glyphicon glyphicon-heart"></span> from the Yeoman team</p>
-      </div>
-    </div>
+      <html>
+        <head>
+          <style>
+            #map {
+              height: 400px;
+              width: 100%;
+             }
+          </style>
+        </head>
+        <body>
+          <h3>My Location</h3>
+          <div id="map"></div>
+          <script>
+            function initMap() {
+              var uluru = {lat: 52.3702157, lng: 4.895167899999933};
+              var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 10,
+                center: uluru
+              });
+              var marker = new google.maps.Marker({
+                position: uluru,
+                map: map
+              });
+            }
+          </script>
+          <script async defer
+          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCJbIXjXS-eq4q8QmMzdvpR1SLjzyR3zO8&callback=initMap">
+          </script>
+        </body>
+      </html>
 
 
     <!-- build:js(.) scripts/vendor.js -->
