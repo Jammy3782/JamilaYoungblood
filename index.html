@@ -1,0 +1,21 @@
+<!DOCTYPE html> <html class=no-js> <head> <meta charset=utf-8> <title>Jamila Youngblood</title> <meta name=description content=""> <meta name=viewport content="width=device-width,initial-scale=1"> <link rel="shortcut icon" href=/favicon.b25e58c4.ico> <link rel=apple-touch-icon href=/apple-touch-icon.9727d3c2.png> <!-- Place favicon.ico and apple-touch-icon.png in the root directory --> <link rel=stylesheet href=styles/main.16091c0d.css> <script src=scripts/vendor/modernizr.fbe20327.js></script> <style>#map {
+        height: 400px;
+        width: 100%;
+       }</style>  <body> <!--[if lt IE 10]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]--> <!--container--> <div class=container> <div class=header> <ul class="nav nav-pills"> <li class=active><a href=#>Home</a></li> <li><a href=#myname>About</a></li> <li><a href=#myfooter>Contact</a></li> </ul> <h3 class=text-muted></h3> </div> <div class=jumbotron> <h1 id=myname style=text-align:center><a name=myname></a>Jamila Youngblood</h1> <p class=lead><img width=150 class=left src="images/MyPhoto.7bc2bbf0.jpg"> I am a freelance Web Developer specializing in HTML, CSS, and JavaScript programing languages. I recently acquired a certificate in Web Development from Seattle University in Seattle, WA, USA.</p> <p> Shortly after receiving my certificate, I relocated to Amsterdam, Netherlands which is where I currently reside. I am looking forward to helping you create an elegant and visually aesthetic website for your company!</p> <p><h4 style=text-align:center>Visit My LinkedIn Profile: &nbsp; <a class="fa fa-linkedin" href=https://www.linkedin.com/in/jamila-youngblood-2507566a></a></h4></p> </div> <div class=row> <div class="col-md-4 col-sm-4 col-xs-6"> <div class=dummy></div> <a href="http://jamilayoungblood.com/wats1020-add-a-map/"><img class=tile src="images/AddAMap.f90ba44c.png"></a> </div> <div class="col-md-4 col-sm-4 col-xs-6"> <div class=dummy></div> <a href="http://jamilayoungblood.com/wats1010-product-page/"><img class=tile src="images/APISuperstore.c26c07b2.png"></a> </div> <div class="col-md-4 col-sm-4 col-xs-6"> <div class=dummy></div> <a href=http://vanitylashlounge.com><img class=tile src="images/AddAMap.f90ba44c.png"></a> </div> </div> <div> <h3>My Location</h3> <div id=map></div> <script>function initMap() {
+              var uluru = {lat: 52.3702157, lng: 4.895167899999933};
+              var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 10,
+                center: uluru
+              });
+              var marker = new google.maps.Marker({
+                position: uluru,
+                map: map
+              });
+            }</script> <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCJbIXjXS-eq4q8QmMzdvpR1SLjzyR3zO8&callback=initMap"></script> </div> <footer id=myfooter style=margin-top:5px><h4><a name=myfooter></a> Contact Me: &nbsp; <a href=mailto:Jammy3782@gmail.com class="glyphicon glyphicon-envelope"><span style=margin-left:2px>Jammy3782@gmail.com</span></a></h4></footer> <script src=scripts/vendor.5c1daead.js></script> <script src=scripts/plugins.e076c2e5.js></script> <script src=scripts/main.dbf075c8.js></script> <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. --> <script>(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+      e.src='https://www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+      ga('create','UA-XXXXX-X');ga('send','pageview');</script> </div> 
